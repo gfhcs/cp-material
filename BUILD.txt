@@ -1,0 +1,17 @@
+To build the pdf, simply run on your favourite shell:
+
+$ xelatex äquivalenzen.tex
+
+Note that you might want to install the texlive-math-extra package. On Debian, this is:
+
+$ sudo aptitude install texlive-math-extra
+
+To add new (counter-) examples, please stick with the same pattern 
+as with the other files, and use the \svg command, which loads the 
+appropiate .pdf_tex file, which in turn loads its .pdf file.
+
+-- FIXME --
+The build process dot -> svg isn't repeatable.
+The build process ??? -> pdf isn't repeatable.
+The build process pdf -> pdf_tex isn't repeatable.
+Line 25 in header.tex is either a typo or a hint for above missing build process(es).
