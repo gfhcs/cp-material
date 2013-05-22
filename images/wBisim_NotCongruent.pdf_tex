@@ -1,0 +1,75 @@
+%% Creator: Inkscape inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'wBisim_NotCongruent.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{248.95070801bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,2.14105316)%
+    \put(0,0){\includegraphics[width=\unitlength]{wBisim_NotCongruent.pdf}}%
+    \put(0.23153123,1.89949129){\makebox(0,0)[b]{\smash{$\tau.a.0$}}}%
+    \put(0.23153123,1.54600766){\makebox(0,0)[b]{\smash{$a.0$}}}%
+    \put(0.29981784,1.72274947){\makebox(0,0)[b]{\smash{$\tau$}}}%
+    \put(0.23153123,1.19252402){\makebox(0,0)[b]{\smash{$0$}}}%
+    \put(0.27169983,1.36926583){\makebox(0,0)[b]{\smash{$a$}}}%
+    \put(0.84547585,1.67521055){\makebox(0,0)[b]{\smash{$a.0$}}}%
+    \put(0.84547585,1.32172692){\makebox(0,0)[b]{\smash{$0$}}}%
+    \put(0.88564445,1.49846873){\makebox(0,0)[b]{\smash{$a$}}}%
+    \put(0.83731715,0.598752){\makebox(0,0)[b]{\smash{$b.0 + a.0$}}}%
+    \put(0.83330029,0.24526837){\makebox(0,0)[b]{\smash{$0$}}}%
+    \put(0.95359786,0.42576323){\makebox(0,0)[b]{\smash{$a$}}}%
+    \put(0.69481285,0.42668053){\makebox(0,0)[b]{\smash{$b$}}}%
+    \put(0.21088512,0.76891885){\makebox(0,0)[b]{\smash{$b.0 + \tau.a.0$}}}%
+    \put(0.32780808,0.41043118){\makebox(0,0)[b]{\smash{$a.0$}}}%
+    \put(0.34500738,0.60969121){\makebox(0,0)[b]{\smash{$\tau$}}}%
+    \put(0.15953399,0.05944957){\makebox(0,0)[b]{\smash{$0$}}}%
+    \put(0.06749514,0.40542714){\makebox(0,0)[b]{\smash{$b$}}}%
+    \put(0.29753696,0.23118728){\makebox(0,0)[b]{\smash{$a$}}}%
+    \put(0.55379244,1.63928731){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\approx$}}}%
+    \put(0.54821978,1.0309994){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\begin{sideways}$ \nLeftarrow $\end{sideways}}}}%
+    \put(0.5526564,0.53339004){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\approx$}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,34 @@
+digraph 
+{
+0 [shape = plaintext, label = ""]
+1 [shape = box, label = "$\\tau.a.0$", style = rounded];
+2 [shape = box, label = "$a.0$", style = rounded];
+3 [shape = box, label = "$0$", style = rounded];
+1 -> 2[label = "$\\tau$"]
+2 -> 3[label = "$a$"]
+0 -> 1
+
+32 [shape = plaintext, label = ""]
+4 [shape = box, label = "$a.0$", style = rounded];
+5 [shape = box, label = "$0$", style = rounded];
+4 -> 5[label = "$a$"]
+32 -> 4
+
+
+6 [shape = plaintext, label = ""]
+7 [shape = box, label = "$b.0 + \\tau.a.0$", style = rounded];
+8 [shape = box, label = "$a.0$", style = rounded];
+9 [shape = box, label = "$0$", style = rounded];
+7 -> 9[label = "$b$"]
+7 -> 8[label = "$\\tau$"]
+8 -> 9[label = "$a$"]
+6 -> 7
+
+10 [shape = plaintext, label = ""]
+11 [shape = box, label = "$b.0 + a.0$", style = rounded];
+12 [shape = box, label = "$0$", style = rounded];
+11 -> 12[label = "$b$"]
+11 -> 12[label = "$a$"]
+10 -> 11
+
+} 
