@@ -1,0 +1,52 @@
+% Include this file in your preamble!
+
+% It defines handy macros for typesetting CCS claims:
+
+% \edge P a Q prints an a-edge from P to Q. If \useEdgeOther has been used in the same environment before this command, the arrow is marked with a prime (')
+\newcommand{\edge}[3]{#1 \stackrel{#2}{\longrightarrow} {#3}}
+% Like \edge, but ignores \useEdgeOther
+\newcommand{\edgeNormal}[3]{#1 \stackrel{#2}{\longrightarrow} {#3}}
+% Like \edge, but always appends a prime (') to the arrow.
+\newcommand{\edgeOther}[3]{#1 \stackrel{#2}{\longrightarrow } ' {#3}}
+% Requests, that edge arrows are to appended a prime (')
+\newcommand{\useEdgeOther}[1] {\renewcommand{\edge}{\edgeOther} {#1}}
+
+% Nicely prints the name CCS_0
+\newcommand{\CCSZero}{$CCS_0$ {}}
+% Nicely prints the name CCS_0^ \omega
+\newcommand{\CCSZeroW}{$CCS_0^\omega${}}
+% Nicely prints the name CCS
+\newcommand{\CCS}{$CCS${} }
+
+
+\usepackage {proof} % Used for inference rules!
+
+% A nicer version of \infer from th proof package:
+\newcommand{\inference}[3][]{\infer [\scriptstyle\mathrm {#1}] {#3} {#2}}
+
+% The following rules simplify the type setting of inference trees:
+
+\newcommand{\prefix}[2]
+{\inference[prefix]{}{\edge {#1.#2} {#1} #2}}
+
+\newcommand{\choicel}[5]
+{\inference[choice{\_}l]{#1}{\edge {#2 + #3} {#4} {#5}}}
+\newcommand{\choicer}[5]
+{\inference[choice{\_}r]{#1}{\edge {#2 + #3} {#4} {#5}}}
+
+\newcommand{\rec}[5]
+{\inference[rec] {\Gamma(#1) = {#2} &	{#3}}{\edge {#1} {#4} {#5}} 	
+ }
+
+\newcommand{\parl}[5]
+{\inference[par{\_}l]{#1}{\edge {{#2} | {#3}} {#4} {{#5} | {#3}}}}
+
+\newcommand{\parr}[5]
+{\inference[par{\_}r]{#1}{\edge {{#2} | {#3}} {#4} {{#2} | {#5}}}}
+
+
+\newcommand{\sync}[6]
+{\inference[sync]{#1 & #2}{\edge {{#3} | {#4}} \tau {{#5} | {#6}}}}
+
+\newcommand{\res}[5]
+{\inference[res]{#1 & #2 \notin #3}{\edge {#4 \setminus #3} {#2} {#5 \setminus #3}}}
