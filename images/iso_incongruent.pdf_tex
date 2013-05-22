@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.48.3.1, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'iso_notCongruent.pdf' (pdf, eps, ps)
+%% Accompanies image file 'iso_incongruent.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -49,7 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,1.3262805)%
-    \put(0,0){\includegraphics[width=\unitlength]{iso_notCongruent.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength]{iso_incongruent.pdf}}%
     \put(0.25924643,1.10384641){\makebox(0,0)[b]{\smash{$a.0$}}}%
     \put(0.25924643,0.78377363){\makebox(0,0)[b]{\smash{$0$}}}%
     \put(0.29561834,0.94381001){\makebox(0,0)[b]{\smash{$a$}}}%

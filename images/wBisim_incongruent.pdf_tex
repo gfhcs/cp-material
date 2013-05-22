@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.48.3.1, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'wBisim_NotCongruent.pdf' (pdf, eps, ps)
+%% Accompanies image file 'wBisim_incongruent.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -49,7 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,2.14105316)%
-    \put(0,0){\includegraphics[width=\unitlength]{wBisim_NotCongruent.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength]{wBisim_incongruent.pdf}}%
     \put(0.23153123,1.89949129){\makebox(0,0)[b]{\smash{$\tau.a.0$}}}%
     \put(0.23153123,1.54600766){\makebox(0,0)[b]{\smash{$a.0$}}}%
     \put(0.29981784,1.72274947){\makebox(0,0)[b]{\smash{$\tau$}}}%
