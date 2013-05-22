@@ -1,0 +1,51 @@
+\documentclass[10pt, landscape]{article}
+
+\include{header}
+
+\usepackage[top=2cm, bottom=3cm, left=2.5cm, right=2.5cm]{geometry} % page margins
+
+\begin{document}
+
+\Head{Äquivalenzen}
+
+Wir kennen folgende Äquivalenzrelationen:
+
+\newcommand{\ssubset}{\begin{sideways} $\subset$ \end{sideways}}
+\newcommand{\ssupset}{\begin{sideways} $\supset$ \end{sideways}}
+\newcommand{\noCongr}[1]{{\color{red}#1}}
+\[\begin{array} {@{}ccccccccccc}
+    &         &                      &         & \sim_{tr}  &         &        & \subset &   &         & \sim_{wtr}        \\
+    &         &                      &         & \ssubset   &         &            & &       &         & \ssubset          \\
+id  & \subset & \noCongr{\sim_{iso}} & \subset & \sim       & \subset &  \approx^+ &=& \cong & \subset & \noCongr{\approx} \\ 
+    &         &                      &         & \ssupset   &         &            & &       &         & \ssupset          \\
+    &         &                      &         & \sim_{ttr} &         &        & \subset &   &         & \sim_{wttr}       \\
+\end{array}\]
+Weitere Inklusionen gelten nicht. Alle, bis auf die \noCongr{gekennzeichneten} Relationen, sind Kongruenzrelationen!
+
+%\begin{tabu} to \textwidth { c | c c c  c  c c c c c c }
+%
+%                     && $id$  & $\sim_{iso}$ & $\sim$ & $\approx^+$ bzw. $\cong$ &  $\approx$             \\
+%\hline \\
+%Spursensitiv         && Ja    & Ja           & Ja     & Ja (schwache Spuren!)    & Ja (schwache Spuren!)  \\\\
+%Verklemmungssensitiv && Ja    & Ja           & Ja     & Ja (schwache Spuren!)    & Ja (schwache Spuren!) \\\\
+%Kongruenzrelation    && Ja    & Nein!!!      & Ja     & Ja                       & Nein!                 \\\\
+%\end{tabu}
+%
+%$\sim_{tr}$ ist die größte spursensitive Äquivalenzrelation und zwar Kongruenzrelation, aber nicht verklemmungssensiitv.
+%$\sim_{ttr}$ ist die größte verklemmungssensitive Äquivalenzrelation und zwar {\color{red}vermutlich} Kongruenzrelation, aber nicht spursensitiv.
+%
+%Für $\sim_{wtr}$ und $\sim_{wttr}$ gilt {\color{red}vermutlich} analoges, aber sie garantieren nur Gleichheit schwacher Spuren.
+
+
+\bigskip
+
+\begin{minipage}{7cm}
+\small
+\svg{trEq_neq_sBiSim}{6cm} 
+\end{minipage} \hspace{5cm}
+\begin{minipage}{7cm}
+\small
+\svg{iso_notCongruent}{6cm}
+\end{minipage}
+
+\end{document}
