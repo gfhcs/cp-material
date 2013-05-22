@@ -11,6 +11,6 @@ Um etwas beizutragen:
 
 1. Forke das GitHub-Repository und klone den Fork auf deine Platte : https://help.github.com/articles/fork-a-repo
 2. Nimm Änderungen vor, halte dich dabei an die überall in den Dokumenten gut zu erkennenden Best Practices und commite & pushe deine Änderungen mit sinnvollen Commit Messages.
-3. Führe einen Push-Request durch, um die Änderungen allen zugänglich zu machen!
+3. Führe einen Pull-Request durch, um die Änderungen allen zugänglich zu machen!
 
 Alternativ kannst du dich möglicherweise auch als Contributor eintragen lassen, was den kleinen Umweg über einen Fork überflüssig macht.
