@@ -38,10 +38,10 @@
 /git-gui.sh
 /pull.sh
 
-# KDE directory information:
-*.directory
-
 # Files you can generate from other files:
 *.svg
 *.pdf
 !images/*
+
+# KDE directory information:
+*.directory
