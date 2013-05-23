@@ -17,6 +17,8 @@
 \newcommand{\CCSZeroW}{$CCS_0^\omega${}}
 % Nicely prints the name CCS
 \newcommand{\CCS}{$CCS${} }
+% Nicely prints the name CCS_{vp}
+\newcommand{\CCSvp}{$CCS_{vp}$ {}}
 
 
 \usepackage {proof} % Used for inference rules!
@@ -50,3 +52,7 @@
 
 \newcommand{\res}[5]
 {\inference[res]{#1 & #2 \notin #3}{\edge {#4 \setminus #3} {#2} {#5 \setminus #3}}}
+
+\newcommand{\prefixvp}[2]
+{\inference[prefix]{#1 \in Act}{\edge{#1.#2}{#1}{#2}}}
+
