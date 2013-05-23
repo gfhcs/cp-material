@@ -1,0 +1,39 @@
+\documentclass[10pt, landscape]{scrartcl}
+
+\include{header}
+\include{ccs_rules}
+\usepackage[top=2cm, bottom=3cm, left=2.5cm, right=2.5cm]{geometry} % page margins
+
+\begin{document}
+
+\Head{Inferenzregeln}
+\section*{\CCSZero}
+\begin{math}
+\prefix{\alpha}{P} \\
+\choicel{\edge{P}{\alpha}{P'} }{P}{Q}{\alpha}{P'} \\
+\choicer{\edge{Q}{\alpha}{Q'} }{P}{Q}{\alpha}{Q'} \\
+\end{math}
+
+\section*{\CCSZeroW}
+\begin{math}
+ \rec{X}{P}{\edge{P}{\alpha}{P'}}{\alpha}{P'} \\
+\end{math}
+
+\section*{\CCS}
+\begin{math}
+\parl{\edge{P}{\alpha}{P'} }{P}{Q}{\alpha}{P'} \\
+\parr{\edge{Q}{\alpha}{Q'} }{P}{Q}{\alpha}{Q'} \\
+\sync{\edge{P}{a}{P'} }{\edge{Q}{\bar{a}}{Q'} }{P}{Q}{P'}{Q'} \\
+\res{\edge{P}{\alpha}{P'} }{\alpha}{H}{P}{P'}
+\end{math}
+
+\section*{\CCSvp}
+\begin{math}
+ \prefixvp{\alpha}{P}
+\end{math}
+
+
+
+
+
+\end{document}
