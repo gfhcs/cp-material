@@ -68,8 +68,9 @@
     \put(0.15953399,0.05944957){\makebox(0,0)[b]{\smash{$0$}}}%
     \put(0.06749514,0.40542714){\makebox(0,0)[b]{\smash{$b$}}}%
     \put(0.29753696,0.23118728){\makebox(0,0)[b]{\smash{$a$}}}%
-    \put(0.55379244,1.63928731){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\approx$}}}%
+    \put(0.55129043,1.4891657){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\approx$}}}%
     \put(0.54821978,1.0309994){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\begin{sideways}$ \nLeftarrow $\end{sideways}}}}%
     \put(0.5526564,0.53339004){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\approx$}}}%
+    \put(0.54556657,1.68244658){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ncong$}}}%
   \end{picture}%
 \endgroup%

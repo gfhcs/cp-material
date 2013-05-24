@@ -51,7 +51,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.2843537"
-     inkscape:cx="135.00672"
+     inkscape:cx="136.56392"
      inkscape:cy="323.55927"
      inkscape:window-x="-3"
      inkscape:window-y="-4"
@@ -796,14 +796,14 @@
   <text
      xml:space="preserve"
      style="font-size:8.62228966px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="224.35506"
-     y="76.760712"
+     x="223.34143"
+     y="99.726486"
      id="text3381-0"
      sodipodi:linespacing="125%"
      transform="scale(0.61450374,1.6273294)"><tspan
        sodipodi:role="line"
-       x="224.35506"
-       y="76.760712"
+       x="223.34143"
+       y="99.726486"
        id="tspan3107-5">$\approx$</tspan></text>
   <text
      xml:space="preserve"
@@ -829,4 +829,16 @@
        x="223.89482"
        y="245.94214"
        id="tspan3107-5-2">$\approx$</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:8.62228966px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     x="221.02255"
+     y="70.158157"
+     id="text3381-0-4"
+     sodipodi:linespacing="125%"
+     transform="scale(0.61450374,1.6273294)"><tspan
+       sodipodi:role="line"
+       x="221.02255"
+       y="70.158157"
+       id="tspan3107-5-9">$\ncong$</tspan></text>
 </svg>
