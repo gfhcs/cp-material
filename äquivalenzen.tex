@@ -2,14 +2,12 @@
 
 \include{header}
 
-\usepackage[top=2cm, bottom=3cm, left=2.5cm, right=2.5cm]{geometry} % page margins
-
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry} % page margins
+\pagenumbering{gobble}
 \begin{document}
 
 \Head{Äquivalenzen}
-
 Wir kennen folgende Äquivalenzrelationen:
-
 \newcommand{\ssubset}{\begin{sideways} $\subset$ \end{sideways}}
 \newcommand{\ssupset}{\begin{sideways} $\supset$ \end{sideways}}
 \newcommand{\noCongr}[1]{{\color{red}#1}}
@@ -21,23 +19,28 @@ id  & \subset & \noCongr{\sim_{iso}} & \subset & \sim       & \subset &  \approx
     &         &                      &         & \sim_{ttr} &         &        & \subset &   &         & \sim_{wttr}       \\
 \end{array}\]
 Weitere Inklusionen gelten nicht. Alle, bis auf die \noCongr{gekennzeichneten} Relationen, sind Kongruenzrelationen!
+Man beachte, dass in den nun folgenden Beispielen LTS stellvertretend für sie produzierende Ausdrücke in Relation gesetzt werden:
+\vspace{0.3cm}
 
-\bigskip
-
-\begin{column}{.35}
-
+\begin{column}{.44}
 	\small
 	\svg{trEq_neq_sBiSim}{6cm} 
-	\vspace {2cm}
-	\svg{tr_notIn_ttr}{6cm} 	
+	\vspace {3cm}
 	
-\hspace{1.5cm}	
-\nextColumn{.35}
+	\begin{column}{.5}
+		\svg{tr_notIn_ttr}{4.5cm}
+		\hspace{0.5cm}
+	\nextColumn{.2}
+		\svg{sBiSim_notIn_congruence}{4.5cm}
+	\end{column}
+
+\hspace{2cm}	
+\nextColumn{.33}
 
 	\small
 	\svg{iso_incongruent}{6cm}
 	
-\hspace{1.5cm}	
+\hspace{1cm}	
 \nextColumn{.35}
 
 	\svg{wBisim_incongruent}{5cm}
