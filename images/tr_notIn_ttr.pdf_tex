@@ -58,5 +58,7 @@
     \put(0.9652094,0.28195846){\makebox(0,0)[b]{\smash{$a$}}}%
     \put(0.51137634,0.31952595){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\sim_{tr}$}}}%
     \put(0.51460719,0.24844743){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\nsim_{ttr}$}}}%
+    \put(0.51071462,0.38578959){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\sim_{wtr}$}}}%
+    \put(0.51717623,0.17901565){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\nsim_{wttr}$}}}%
   \end{picture}%
 \endgroup%

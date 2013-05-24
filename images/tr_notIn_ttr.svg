@@ -47,7 +47,7 @@
      id="namedview119"
      showgrid="false"
      inkscape:zoom="1.8330097"
-     inkscape:cx="179.48197"
+     inkscape:cx="180.57307"
      inkscape:cy="124.375"
      inkscape:window-x="-3"
      inkscape:window-y="-4"
@@ -335,4 +335,28 @@
        x="156.08043"
        y="85.348129"
        id="tspan3107-5-1">$\nsim_{ttr}$</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.4987011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     x="154.89981"
+     y="52.295185"
+     id="text3381-0-1"
+     sodipodi:linespacing="125%"
+     transform="scale(0.89077258,1.122621)"><tspan
+       sodipodi:role="line"
+       x="154.89981"
+       y="52.295185"
+       id="tspan3063">$\sim_{wtr}$</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.4987011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     x="156.85962"
+     y="102.05767"
+     id="text3381-0-4-6"
+     sodipodi:linespacing="125%"
+     transform="scale(0.89077258,1.122621)"><tspan
+       sodipodi:role="line"
+       x="156.85962"
+       y="102.05767"
+       id="tspan3107-5-1-2">$\nsim_{wttr}$</tspan></text>
 </svg>
