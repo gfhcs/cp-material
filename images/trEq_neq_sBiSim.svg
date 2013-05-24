@@ -51,7 +51,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.8163505"
-     inkscape:cx="226.91952"
+     inkscape:cx="228.02063"
      inkscape:cy="179.375"
      inkscape:window-x="-3"
      inkscape:window-y="-4"
@@ -648,4 +648,16 @@
        x="224.93362"
        y="135.46452"
        id="tspan3107-8">$\not\approx$</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.82811165px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     x="224.36287"
+     y="149.56187"
+     id="text3381-8-8"
+     sodipodi:linespacing="125%"
+     transform="scale(0.77171105,1.2958218)"><tspan
+       sodipodi:role="line"
+       x="224.36287"
+       y="149.56187"
+       id="tspan3107-8-3">$\nsim_iso$</tspan></text>
 </svg>

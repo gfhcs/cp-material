@@ -68,5 +68,6 @@
     \put(0.53798764,0.49170004){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\sim_{tr}$}}}%
     \put(0.53376763,0.56697477){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\sim_{wtr}$}}}%
     \put(0.55050753,0.23912253){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\not\approx$}}}%
+    \put(0.563079,0.17699758){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\nsim_{iso}$}}}%
   \end{picture}%
 \endgroup%
