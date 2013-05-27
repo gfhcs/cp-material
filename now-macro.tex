@@ -1,0 +1,94 @@
+% A Lars Jonsson macro file, 2002-Sept-25
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Provides: \catchNameTitle         Takes name and title if used before 
+%                                   \begin{document} and after \title \author
+%
+%           \timenow                returns a string with the time now.
+%
+%           \TODAY                  Creates a string of todays date
+%
+%           \MarkAll                access all headers in pagestyle{myheadings}
+%
+%           \NOW                    = \TODAY;\timenow
+%
+%           \NowFoot, \NowFootNum   creates footpage, w. filename, \NOW & page 
+%
+%           \DRAFT                  Write Draft in header
+%
+%           \fixNumberingInArticle  eq.num 4.12, same for fig.
+%           \fixNumberingInAppendix eq.num B.3 and sec. number: A sec. title
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter 
+% catches author and title for the headers, must be before \maketitle 
+% that clears the 
+% variables \@author and \@title
+
+\def\catchNameTitle{
+\global\let\Author\@author
+\global\let\Title\@title
+}
+
+% creates a string with the time now.
+\def\timenow{%
+  \@tempcnta=\time \divide\@tempcnta by 60 \number\@tempcnta:\multiply
+  \@tempcnta by 60 \@tempcntb=\time \advance\@tempcntb by -\@tempcnta
+  \ifnum\@tempcntb <10 0\number\@tempcntb\else\number\@tempcntb\fi}
+
+% creates a string with todays date Swedish version  
+\def\TODAY{\number\year-\ifcase\month\or 01\or 02\or 03\or 04\or 05\or
+    06\or 07\or 08\or 09\or 10\or 11\or 12\fi-\number\day}
+
+% substitute for markboth or simular commands sets the page with #1 
+%to #4 one in each corner on every page
+
+\newcommand{\MarkAll}[4]{
+\renewcommand{\ps@myheadings}{
+\renewcommand{\@oddhead}{{\scriptsize #1 \hfil #2}}
+\renewcommand{\@evenhead}{\@oddhead}
+\renewcommand{\@evenfoot}{{\scriptsize #3}\hfil
+	\textrm{\thepage}\hfil{\scriptsize #4}}
+\renewcommand{\@oddfoot}{\@evenfoot}}
+}
+
+\def\NOW{\TODAY;\timenow}
+
+\newcommand{\NowFootNum}{
+\renewcommand{\@evenfoot}{{\scriptsize \jobname.tex}\hfil
+	\textrm{\thepage}\hfil {\scriptsize \NOW}}
+\renewcommand{\@oddfoot}{\@evenfoot}
+}
+
+\newcommand{\DRAFT}{
+\renewcommand{\@evenhead}{\hfil DRAFT \hfil}
+\renewcommand{\@oddhead}{\@evenhead}
+}
+
+
+\newcommand{\NowFoot}{
+\renewcommand{\@evenfoot}{{\scriptsize \jobname.tex} {\scriptsize \NOW}}
+\renewcommand{\@oddfoot}{\@evenfoot}
+}
+
+
+\def\fixNumberingInArticle{
+\@addtoreset{figure}{section}
+\@addtoreset{equation}{section}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}  
+\renewcommand{\theequation}{\thesection.\arabic{equation}}  
+}
+
+\def\fixNumberingInAppendix{
+\setcounter{section}{0}
+\renewcommand{\theequation}{\Alph{section}.\arabic{equation}}
+\renewcommand{\thesection}{\Alph{section}}
+\setcounter{equation}{0}
+}
+
+
+\makeatother
+
+
+

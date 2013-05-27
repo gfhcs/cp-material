@@ -21,6 +21,7 @@
 
 \usepackage{stmaryrd} %used for semantic brackets: \llbracket \rrbracket
 
+\usepackage{fancyhdr} %For footer/header
 
 % Macro to include a pdf file that has been generated with Inkscape (PDF+LaTeX!!!) from the file images/#1.svg
 % #2 is display width.
@@ -87,5 +88,9 @@
 \itemsep0pt
 \parskip0pt
 
+\input{now-macro}
 
-
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\fancyfoot[L]{{\TODAY}  - \timenow} % other info in "inner" position of footer line
